@@ -1,5 +1,4 @@
 import { server } from "./server.js";
-import { createServer } from "node:http";
 
 const port = 8000;
 server.listen(port, () => {
